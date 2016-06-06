@@ -34,11 +34,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 		<servlet>
-		<servlet-name>search</servlet-name>
+		<servlet-name>Search</servlet-name>
 		<servlet-class>risyu_ms.SearchServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>search</servlet-name>
+		<servlet-name>Search</servlet-name>
 		<url-pattern>/search</url-pattern>
 	</servlet-mapping>
 
@@ -50,4 +50,5 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>add</servlet-name>
 		<url-pattern>/add</url-pattern>
 	</servlet-mapping>
+	
 </web-app>
