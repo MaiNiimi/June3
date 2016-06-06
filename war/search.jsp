@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -34,7 +35,7 @@
 <body onload="getData(null);">
 	<h1>授業を選択する</h1>
 	<br>
-	<a href="main.jsp">メニューへ</a>
+	<a href="/risyu_ms">メニューへ</a>
 	<br>
 	<br>
 	<table id="datatable" border="1">
